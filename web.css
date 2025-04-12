@@ -1,0 +1,42 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.col-md-3
+{
+    padding-top: 20px;
+}
+.class-1
+{
+    margin-left: 5pc;
+}
+.class-2
+{
+    margin-left: 20px;
+}
+.section {
+    margin-bottom: 30px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+.section h2 {
+    margin-bottom: 15px;
+}
+body {
+    padding: 20px;
+}
+.section-2 .box-heading::before
+{
+    
+        content: '';
+        width: 40px;
+        height: 4px;
+        border-radius: 10px;
+        background: #c3c3c3;
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        margin-left: -20px;
+}
